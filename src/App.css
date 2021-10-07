@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 30px;
+  pointer-events: none;
+}
+
+.App-header {
+  
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-faixa {
+    padding-left: 2em;
+    display: flex;
+    width: 100%;
+    height:100px;
+    background:#e6e6fa;
+    text-align: left;
+    
+}
+
+input, button {
+  float: right; 
+  margin: 15px;
+}
+
+input {
+  width: 40%;
+}
+
+.App-border{
+  border: 2px solid #dcdcdc;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+button{
+  position: absolute;   
+  top: 45px; 
+  right: 35%;
+}
+label{
+  position: absolute;  
+  top: 45px; 
+  right: 30%;
+}
+.placeholder{
+  color: #dcdcdc;
+}
+
+.App-lupa { 
+  float: right; 
+  background-color:white;
+  height: 20px;
+  width: 20px;
+  border: none;
+
+}
+
+th, td {
+  width: 20%;
+  height:100px;
+}
+
+.table-responsive {
+  width: 100%; 
+}
+
+.table {
+  padding-left: 10em;
+  padding-right: 10em;
+  text-align: right;
+  margin: auto;
+  width: 80% !important; 
+  border: 1px solid #ddd;;
+  border-collapse: collapse;
+}
+
+.text{
+  text-decoration: line-through;
+}
+
+.preco{
+  text-align: left !important;
+}
+
+.col-lg-6{
+  width: 50%;
+}
+
+.kit{
+  padding-left: 10PX;
+  text-align: left !important;
+}
+
+.marca{
+  padding-left: 30PX;
+  text-align: left !important;
+  font-size: 12px;
+  color: #808080;
+}
+
+.gray{
+  color: #808080;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
